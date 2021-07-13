@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background: black;
+}
+*{
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+.container{
+	padding: 20px;
+}
+.infodiv{
+	border: 2px solid white;
+	border-radius: 10px;
+	display: table;
+	clear: both;
+	transition: all .3s ease;
+}
+.anime-image{
+	align-items: center;
+	padding: 20px;
+	width: 260px;
+	float: left;
+	transition: all .3s ease;
+}
+.info{
+	font-size: 20px;
+	color: white;
+	max-width: calc(100% - 340px);
+	margin-left: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 50px;
+	transition: all .3s ease;
+	min-width: 250px;
+}
+.manga-title h2{
+    width: 100%;
+    text-align: center;
+    height: 20%;
+    text-transform: uppercase;
+}
+.chap-chooser h3{
+    margin-top: 5%;
+}
+.chap-chooser a{
+    color: turquoise;
+    font-size: large;
+}

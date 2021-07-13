@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+  }
+body{
+  background: black;
+}
+.cards h4{
+  font-size: 20px;
+  margin: 0 0 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.animelist{
+  display: table;
+  align-items: center;
+  clear: both;
+}
+.animeinfo{
+    color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    transition: all .3s ease;
+    text-align: center;
+    float: left;
+    min-width: 260px;
+    max-width: 310px;
+    width: 50%;
+    max-height: 400px;
+}

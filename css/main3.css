@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+body{
+    background: black;
+    align-items: center;
+}
+*{
+    color: white;
+    font-family: "Roboto Mono", monospace;
+}
+.image-chapter-container{
+    align-items: center;
+    overflow: initial;
+    text-align: justify;
+}
+.image-chapter{
+    width: 100%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    margin-top: -5px;
+}
