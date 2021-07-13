@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="../css/mainnotdel.css">
     <link rel="stylesheet" href="../css/main3.css">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,6 +53,27 @@
         <div class="image-chapter"><img src="./Chap 190/37.jpg"></div>
         <div class="image-chapter"><img src="./Chap 190/38.jpg"></div>
     </div>
+
+    <div class="last-nextchap">
+        <img onclick="openChap(2)" class="lastbtn" src="../backbtn.png">
+        <img onclick="openChap(4)" class="nextbtn" src="../nextbtn.png">
+        <p style="color: black; position: relative; top: -110%; left: 40%; font-size: 20px; width: 20%;">
+            Chap 190
+        </p>
+    </div>
+
+    <div class="goInfo">
+        <img onclick="openlist()" src="../listbtn.png" width="60" height="60">
+    </div>
+    
+    <script>
+        function openChap(chapter) {
+            location.href = 'chap' + chapter + '.html'
+        }
+        function openlist() {
+            location.href = 'info.html'
+        }
+    </script>
     
 </body>
 </html>
